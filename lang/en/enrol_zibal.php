@@ -58,4 +58,3 @@ $string['status'] = 'Allow zibal enrolments';
 $string['status_desc'] = 'Allow users to use zibal to enrol into a course by default.';
 $string['unenrolselfconfirm'] = 'Do you really want to unenrol yourself from course "{$a}"?';
 $string['usezibal'] = 'Use zibal';
-$string['usezibal_description'] = 'check to use zibal or leave this to use normal webgate';

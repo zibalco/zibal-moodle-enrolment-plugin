@@ -35,9 +35,6 @@ if ($ADMIN->fulltree) {
     $settings->add(new admin_setting_configcheckbox('enrol_zibal/checkproductionmode',
                    get_string('checkproductionmode', 'enrol_zibal'), '', 0));
 
-    $settings->add(new admin_setting_configcheckbox('enrol_zibal/usezibal',
-                   get_string('usezibal', 'enrol_zibal'), get_string('usezibal_description', 'enrol_zibal'), 0));
-
     $settings->add(new admin_setting_configcheckbox('enrol_zibal/mailstudents', get_string('mailstudents', 'enrol_zibal'), '', 0));
 
     $settings->add(new admin_setting_configcheckbox('enrol_zibal/mailteachers', get_string('mailteachers', 'enrol_zibal'), '', 0));
